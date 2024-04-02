@@ -315,6 +315,7 @@ body {
         padding-right:30px;
     }
     .nav_content{
+        position:fixed;
         left:0;
         top:90%;
         width:100%;
