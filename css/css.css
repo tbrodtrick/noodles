@@ -316,6 +316,9 @@ body {
     }
     .nav_content{
         left:0;
+        top:90%;
+        width:100%;
+        background-color: #0A1828;
     }
     .header {
         text-align:right;
