@@ -1,0 +1,169 @@
+<!-- 567169834 - Tristan Brodtrick -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <style>
+        /*hover animation*/
+        .topnav a:hover {
+            color:#178582;
+        }
+        .topnav a:active {
+            color: #ff0000
+        }
+
+        .nav_content a:hover {
+            color: #BFA181;
+        }
+        .nav_content li:hover {
+            background-color: seashell;
+        }
+        .nav_content a:active {
+            color: #178582;
+        }
+        
+        </style>
+    <title>for love of noodles</title>
+</head>
+<body>
+    <!--anything labled with gradient is for the background gradient-->
+    <div class="header_container">
+        <div class="header gradient">
+            <div class="underline">for love of noodles</div>
+        </div>
+    
+        <nav class="topnav gradient">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+     </div>
+     <!--submenus with js content modification-->
+     <nav class="nav_content">
+        <ul>
+            <li><a href="#" onclick="intro()">Introduction</a></li>
+            <li><a href="#" onclick="broth()">Broth</a></li>
+            <li><a href="#" onclick="seasoning()">Seasoning</a></li>
+            <li><a href="#" onclick="noodles()">Noodles</a></li>
+            <li><a href="#" onclick="toppings1()">Toppings</a></li>
+            <li id="lastli" onclick="fat()"><a href="#">Fat</a></li>
+        </ul>
+    </nav>
+    <div id="column_home" class="logo"></div>
+    <div class="column_main logo">
+        <!--content stored in these divs toggled by js-->
+        <div class="content_header1" id="intro">An Introduction</div>
+        <div class="content_header1" id="broth">Broth</div>
+        <div class="content_header1" id="seasoning">Seasoning</div>
+        <div class="content_header1" id="noodles">Noodles</div>
+        <div class="content_header1" id="toppings1">Toppings</div>
+        <div class="content_header1" id="fat">Fat</div>
+        <div class="content_container1" id="intro_content">
+            Ramen is a set of 5 components.
+            <br>
+            <br>
+            If you think of a cheeseburger as bun, meat, cheese and toppings, you can think about ramen the following:
+                <ul>
+                    <li>Broth</li>
+                    <li>Noodles</li>
+                    <li>Seasoning</li>
+                    <li>Toppings</li>
+                    <li>Fat</li>
+                </ul>
+            Each of the above elements has their own set of complexities and mixing and matching between the elements allows for nearly infinite possibilities.
+            <br><br>
+            What really defines ramen is the use of an alkaline salt in the noodle. The alkaline salt you use will vary depending on your intended results. If you have a more delicate soup and you want to pair it with a thin noodle, you'll want noodle to be harder, if your soup is hearty and you've chosen to pair it with a thicker noodle you might want that noodle to be softer and chewier.
+            <br><br>
+            Outside of this Ramen doesn't really have any rules, you can mix and match components as you like in order to achiever an end product you're happy with.
+            <br><br>
+            Click on the header links above to explore each component in a little more depth.
+            
+        </div>
+
+        <div class="content_container1" id="broth_content">
+            A good broth is required for a good bowl of ramen, there's no two ways about it ramen is just noodle soup at it's core. That having been said, the soup is one of the easier elements to prepare that we're going to discuss. Start with good quality ingredients and watch your temperatures and you'll be okay.
+            <br><br>
+            Ramen broth can be made from virtually any animal bones, while chicken, pork and fish are used most commonly, I've seen cow and even lamb broth that has been turned into ramen broth. breaks down into two categories.
+            <br><br>
+            Broth typically comes in two varieties, either clear or cloudy. Clear stocks are made very much in the traditional french way, gently simmered, eventually with aromatics, while cloudy stocks are actually boiled fairly aggressively over a longer period of time. This allows the cloudy stocks to break down additional fat content and create an emulsion between the fat and the water. The now famous Tonkotsu ramen is an example of a pork based cloudy soup.
+            <br><br>
+            One trick with cloudy soups is to hit them with an immersion blender right before serving. 
+
+        </div>
+
+        <div class="content_container1" id="seasoning_content">
+            The seasoning is the component that gives your ramen it's flavour. The Japanese word for this component is tare which translates literally to sauce. Before this seasoning is added to your broth, your broth will taste bland as no salt should have been added. As a result the seasoning on it's own is incredibly salty and allows you to deliver precisely the amount of salt and flavour you wish to impart on a dish. There are three main flavours of seasoning.
+            <br>
+            <div class="sub_header2">Soy Sauce:</div>
+            <br>
+            As it's name implies the dominant flavour of this seasoning is Soy Sauce, though often reduced or fortified with salt. A seasoning doesn't have to be just soy sauce though, it can have components of fish stock incorporated and there are even some Soy based seasonings that incorporate miso. Soy seasoning can be paired with any broth but most often it pairs nicely with clear light soups.
+            <br>
+            <div class="sub_header2">Miso:</div>
+            <br>
+            Miso seasoning leads to a very distinct soup. Miso as an ingredient has many variations, some based on rice, some on barley, some on soy beans, some on a combination of those three ingredients. Left to ferment for differing times they take on their own flavours and colours. I prefer miso seasoning paired with cloudy soups, I find the creamyness of the broth and the savory nature of the miso pair well together. There is a popular variation of ramen that came from northern Japan whose distinctive elements are a cloudy broth, miso seasoning, with corn and butter as a topping.
+            <br>
+            <div class="sub_header2">Salt:</div>
+            <br>
+            Salt seasoning is just that. Variations of high quality salts blended, often mised with a liquid, like sake and mirin or even a light soy sauce and then added to the soup before serving. It's a minimalist approach that really allows you to carry the flavour of your broth forward and can been paired with either broth.
+        </div>
+        <div class="content_container1" id="noodles_content">
+            
+            <div class="img_block">
+                <div class="noodle_wrapper">
+                    <img id="image_noodles1" src="img/noodles.png" alt="Freshly Made Noodles">
+                </div>
+            </div>
+            Noodles are one of the components that when you're getting started, you're probably best off to buy them at a store. Ramen is defined by it's noodles, specifically an ingredient in the noodles called alkaline salts.
+            <br>
+            <br>
+            Ramen noodles are measured in hydration, which refers to the ratio of water and solid content (flour) in the noodle. While higher hydration noodles ~40% water content are possible to do on a roller at home, lower hydration noodles are notorious for breaking pasta machines. Additionally alkaline salts can be difficult to source and the ones that are readily available in western markets are often inconsistent.
+            <br>
+            <br>
+            Noodles can vary by thickness, shape, texture, and how quickly they'll absorb moisture. The noodles are the bun to this burger, they hold it all together.
+ 
+        </div>
+        <div class="content_container1" id="toppings1_content">
+            Toppings come in all varities but some of the more common ones are:
+            <div class="sub_header2">Braised Pork</div>
+            <br>
+            Pork Braised in soy sauce called Chashu. Often from the belly, it's hearty and savory. Other meat based toppings include pulled pork or sliced chicken.
+            <br>
+            <div class="sub_header2">Soy Pickled Egg</div>
+            <br>
+            A soft boiled soy pickled egg known as Ajitama. When done right the yolk is the consistency of slighly warmed butter, not hardboiled but not quite soft either.
+            <br>
+            <div class="sub_header2">Green Onions</div>
+            <br>
+            Green onion is a common topping in ramen and can add a freshness and a little bit of a crunch to the bowl.
+            <br>
+            <div class="sub_header2">Fried Garlic Chips</div>
+            <br>
+            Fried Garlic chips left over from making the aromatic fat can be a lovely topping and a nice cruchy texture to a bowl.
+            <br>
+            <div class="sub_header2">Fish Cakes</div>
+            <br>
+            Known as naruto maki and for it's distinctive pink swirl sliced fishcakes are a common topping found in ramen.
+            <br>
+ 
+        </div>
+        <div class="content_container1" id="fat_content">
+            
+            The importance of fat in ramen can not be over stated. The average tongue is able to taste 5 flavours. Those are: sweet, savory, salty, sour and bitter. Any flavour that your experience beyond those are actually aroma which are carried in fat.
+            <br>
+            <br>
+            Rendered animal fat, either chicken or pork are often added to a bowl and shouldn't be skipped. These can often be fortified with garlic, dried fish, or green onion by frying them in the rendered fat but can also be added to a bowl on it's own. It adds the aroma of what you're eating to the bowl, and when used correctly can carry other missing aromas into the bowl for you.
+ 
+        </div>
+    </div>
+    <div class="footer">All images unless otherwise disclosed are pictures I have taken and own the rights to.
+    </div>
+    <div class="column3 gradient"></div>
+</body>
+</html>

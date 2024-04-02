@@ -1,0 +1,267 @@
+<!-- 567169834 - Tristan Brodtrick -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <style>
+        /*hover animation*/
+        .topnav a:hover {
+            color:#178582;
+        }
+        .topnav a:active {
+            color: #ff0000
+        }
+
+        .nav_content a:hover {
+            color: #BFA181;
+        }
+        .nav_content li:hover {
+            background-color: seashell;
+        }
+        .nav_content a:active {
+            color: #178582;
+        }
+        
+        </style>
+    <title>for love of noodles</title>
+</head>
+<body>
+    <!--anything labled with gradient is for the background gradient-->
+    <div class="header_container">
+        <div class="header gradient">
+            <div class="underline">for love of noodles</div>
+        </div>
+    
+        <nav class="topnav gradient">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="components.html">Components</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+     </div>
+     <!--submenus with js content modification-->
+     <nav class="nav_content">
+        <ul>
+            <li><a href="#" onclick="thoughts()">Thoughts</a></li>
+            <li><a href="#" onclick="toppings()">Toppings</a></li>
+            <li><a href="#" onclick="clearsoup()">Clear Soup</a></li>
+            <li id="lastli" onclick="cloudysoup()"><a href="#">Cloudy Soup</a></li>
+        </ul>
+    </nav>
+    <div id="column_home" class="logo"></div>
+    <div class="column_main logo">
+        <!--content stored in these divs toggled by js-->
+        <div class="content_header1" id="thoughts">Thoughts</div>
+        <div class="content_header1" id="toppings">Toppings</div>
+        <div class="content_header1" id="cloudysoup">Cloudy Soup</div>
+        <div class="content_header1" id="clearsoup">Clear Soup</div>
+        <div class="content_container1" id="thoughts_content">
+            The recipe rabbit hole can be pretty deep. 
+            <br>
+            <br>
+            One of the defining characteristics of really famous ramen shops is the precision in how they execute, the ability to provide consistent flavour, texture and mouthfeel from one bowl to the next, from one visit to the next. This can be a challenge to deliver when the weights, quality and even to some degree the flavours of you ingredients change from one delivery to the next. To this end it's not uncommon to see a ramen chef measure the viscosity of their broth using a refractometer, or measuring alkaline salts to a tenth of a milligram.
+            <br>
+            <br>
+            In addition to the technical complexities you can encounter when researching how to make your first bowl you can also run into trouble sourcing quality ingredients. Something as simple as unsliced pork belly for the roasted pork can difficult to source, let alone quality katsuobushi, a dried cured fish product used to add a savoury smokey flavour to the end product.
+            <br>
+            <br>
+            You're not going to find those guides here. Which is not to say these skills aren't important. Certainly if you wish to continue to develope your bowls into a proffesional quality product you will need to find a way to source quality ingredients and refine your skills. But to just get started, the most important thing you can do is make a bowl and not get caught up in the fuss.
+            <br>
+
+        </div>
+        <div class="content_container1" id="toppings_content">
+            One of the really cool things about ramen is there are alot of different toppings. Below are some methods for some of the most common toppings in North America.
+            <br>
+            <br>
+            <div class="sub_header">Pork Belly</div>
+            <div class="img_block">
+                <div class="img_wrapper1">
+                    <img id="pork_belly" src="img/pork_belly.jpeg" alt="pork_belly">
+                </div>
+            </div>
+            <br>
+            <br>
+            <table class="ingredients_table">
+                <caption class="ingredients_caption" style="margin-bottom:18px;">Ingredients</caption>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Pork Belly</td>
+                    <td class="ingredients_data second_column">2lbs</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Ginger</td>
+                    <td class="ingredients_data second_column">One knob, thumb sized</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Green onion</td>
+                    <td class="ingredients_data second_column">Two green stalks</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Garlic</td>
+                    <td class="ingredients_data second_column">2 cloves</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Japanese soy sauce</td>
+                    <td class="ingredients_data second_column">250ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Mirin (if available)</td>
+                    <td class="ingredients_data second_column">125ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data last_row">Sake (if available)</td>
+                    <td class="ingredients_data second_column last_row">125ml</td>
+                </tr>
+            </table>
+            <div class="sub_header2">Method:</div>
+            <br>
+            Preparation Time: 2.5 hours, passive
+            <br>
+            <br>
+            Remove any skin from your pork belly. In an oven safepot, submerge the pork in water. Place it on the stove on medium heat, bring it up to a simmer and reduce heat to medium low. If any scum develops, skim it as you go. Turn the pork periodically to ensure even cooking and at about 75 minutes get your oven preheating to 400&deg;. After 90 minutes add the soy, mirin and sake, the garlic and green onion and ginger and move the pot into your now preheated oven, covered for the 45 minutes, and then finally uncovered for the last 15 minutes.
+            <br>
+            <br>
+            Remove the pork from your braising liquid, reserving the braising liquid as we can use it to season our soups. Allow the pork to cool and then move it into the fridge to set overnight before using. 
+            <br>
+            <br>
+            <div class="sub_header">Soy Picked Egg</div>
+            <div class="img_block">
+                <div class="aji_wrapper">
+                    <img id="ajitama" src="img/ajitama.png" alt="Soy Pickled Egg">
+                </div>
+            </div>
+            <br>
+            <br>
+            <table class="ingredients_table">
+                <caption class="ingredients_caption" style="margin-bottom:18px;">Ingredients</caption>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Eggs, large</td>
+                    <td class="ingredients_data second_column">6</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Water</td>
+                    <td class="ingredients_data second_column">250ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Japanese soy sauce</td>
+                    <td class="ingredients_data second_column">250ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Mirin (if available)</td>
+                    <td class="ingredients_data second_column">125ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data last_row">Sake (if available)</td>
+                    <td class="ingredients_data second_column last_row">125ml</td>
+                </tr>
+            </table>
+            <div class="sub_header2">Method:</div>
+            <br>
+            Preparation Time: 2.5 hours, passive
+            <br>
+            <br>
+            In one pan bring boil enough water to cover your eggs, once water is at a rolling boil insert your eggs and allow to boil for 7 minutes. After 7 minutes remove from the heat, strain and then run cold water over the eggs to stop them from cooking farther. The goal is to hit a consistency similar to that pictured.
+            <br>
+            <br>
+            Now in a second pan bring your sake and mirin up to heat and allow the alcohol to burn off. After a couple of minutes add your soy and water. Combine, and take off heat, allow to cool to room temperature.
+            <br>
+            <br>
+            During this time you can start peeling your eggs, once peeled and the brine is cooled combine the peeled eggs, and your pickling brine into a tupperware container. Allow to brine at least one night, in the fridge before serving.
+        </div>
+
+        <div class="content_container1" id="clearsoup_content">
+           
+            <table class="ingredients_table">
+                <caption class="ingredients_caption" style="margin-bottom:18px;">Ingredients</caption>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Chicken, Whole</td>
+                    <td class="ingredients_data second_column">2</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Chicken Feet</td>
+                    <td class="ingredients_data second_column">225 Grams</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Water</td>
+                    <td class="ingredients_data second_column">2* chicken weight</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Cabbage</td>
+                    <td class="ingredients_data second_column">1 quarter head</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Onion, large</td>
+                    <td class="ingredients_data second_column">125ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data last_row">Shaved Bonito</td>
+                    <td class="ingredients_data second_column last_row">50 grams</td>
+                </tr>
+            </table>
+            <div class="sub_header2">Method:</div>
+            <br>
+            Preparation Time: 1 hour active, 5 hours passive
+            <br>
+            <br>
+            Break your 2 chickens down into parts and remove the finger nails from the chicken feet. Score the pads on the feet, they're here to break down from collagen into gelatine and remove any organs left behind in the chicken carcasses. Weigh your chicken and feet together and add them into your stock pot, then measure 2 times the wait of your chicken in water and add it to your stock pot, take a note of the level of water in the pot. This is your fill line and the level you will maintain your stock at.
+            <br><br>
+            Set the stove to medium high heat and bring the pot up to temperature. The key to a clear soup is to never let the pot boil and to skim any sediment that rises. While ramen is considered to be a Japanese soup, this is a very similar method to making a french stock.
+            <br><br>
+            Once we have the pot at a consistent temperature we'll let it gently simmer for 4 to 5 hours, checking it periodically and topping up the water as necessary. After 4 to 5 hours, we'll add our aromatics, the onion and cabbage and allow to simmer for up to another hour. Once the time has elapsed, turn the head off, add your bonito and allow to steep for 10 minutes.
+            <br><br>
+            Strain your soup allow to cool and the store in the fridge overnight. A good soup should cool solid when you come back to it tomorrow.
+        </div>
+        <div class="content_container1" id="cloudysoup_content">
+            <table class="ingredients_table">
+                <caption class="ingredients_caption" style="margin-bottom:18px;">Ingredients</caption>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Chicken, Whole</td>
+                    <td class="ingredients_data second_column">2</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Chicken Feet</td>
+                    <td class="ingredients_data second_column">225 Grams</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Water</td>
+                    <td class="ingredients_data second_column">1.5* chicken weight</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Cabbage</td>
+                    <td class="ingredients_data second_column">1 quarter head</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data">Onion, large</td>
+                    <td class="ingredients_data second_column">125ml</td>
+                </tr>
+                <tr class="ingredients_row">
+                    <td class="ingredients_data last_row">Shaved Bonito</td>
+                    <td class="ingredients_data second_column last_row">50 grams</td>
+                </tr>
+            </table>
+            <div class="sub_header2">Method:</div>
+            <br>
+            Preparation Time: 1 hour active, 8 hours passive
+            <br>
+            <br>
+            A cloudy soup broth in ramen is something else. When executed correctly you can provide a mouth feel that is reminiscent of the thickest cream soups, but wihtout using any dairy product. The trick here is you're creating an emulsion between the fat and the water. While often we see this in pork based soup we can create a similar product using chicken.
+            <br><br>
+            Break your 2 chickens down into parts and remove the finger nails from the chicken feet. Score the pads on the feet, they're here to break down from collagen into gelatine and remove any organs left behind in the chicken carcasses. Weigh your chicken and feet together and add them into your stock pot, then measure 1.5 times the wait of your chicken in water and add it to your stock pot, take a note of the level of water in the pot. This is your fill line and the level you will maintain your stock at.
+            <br><br>
+            Set the stove to high heat and bring the pot up to a boil. If the key to a clear soup is to never let the pot boil, the sercret to a cloudy soup is to let your pot boil aggressively and for a longer period of time that you would a french stock.
+            <br><br>
+            Once we have the pot at a consistent boil we'll check on it every 30 minutes to mash the chicken and to top up the water. After 6 to 7 hours, we'll add our aromatics, the onion and cabbage and allow to boil for up to another hour, and finally once that time has elapsed, turn the heat off, add your bonito and allow to steep for 10 minutes.
+            <br><br>
+            Strain your soup allow to cool and the store in the fridge overnight. A good soup should cool solid when you come back to it tomorrow.
+        </div>
+    </div>
+    <div class="footer">All images unless otherwise disclosed are pictures I have taken and own the rights to.
+    </div>
+    <div class="column3 gradient"></div>
+</body>
+</html>
