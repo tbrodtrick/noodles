@@ -214,11 +214,15 @@ body {
     border:0px;  
 }
 
+#resources_table td {
+    padding:2px 5px;
+}
+
 #resources_wrapper{
-    width:50%;
     position:fixed;
+    width:50%;
     left:25%;
-    top:300px;
+    top: 310px;
     color:seashell;
 }
 #resources_wrapper a{
@@ -240,6 +244,10 @@ body {
 .content_container {
     color:seashell;
     margin: 25px 0;
+}
+
+.td_column_2 {
+    max-width: 300px;
 }
 
 .img_block {
